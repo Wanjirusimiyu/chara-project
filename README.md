@@ -1,0 +1,1 @@
+echo "# My Chara Project" >> README.md
