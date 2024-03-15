@@ -1,1 +1,1 @@
-echo "# My Chara Project" >> README.md
+echo "# Chara Project" >> README.md
