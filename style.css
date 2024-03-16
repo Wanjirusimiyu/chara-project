@@ -1,3 +1,64 @@
-body {
-    background:blue;
+* {
+    background-color:antiquewhite;
+    font-family: "Roboto Slab", serif;
+    list-style-type: none;
+    color:black;
+    text-decoration: none;
+    margin: 20px;
+    padding: 0;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.navbar_items ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font: size 20px;
+    position: relative;
+}
+.navbar_items ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: blue;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.navbar_items ul li a:hover::after{
+    width:100%
+}
+
+.hero{
+    background-image: url(./background.jpg);
+    height: 600px;
+    width: 600px;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   position: relative;
+   color: white;
+
+}
+.hero::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
