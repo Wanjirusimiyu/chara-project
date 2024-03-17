@@ -1,2 +1,99 @@
-const h2 = document.createElement("h2");
-h2.textContent = ;document.querySelector("body").appendChild(h2);
+//<!DOCTYPE html>
+//<html lang="en">
+
+//<head>
+   // <meta charset="UTF-8">
+    //<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    //<!--Google fonts -->
+    //<link rel="preconnect" href="https://fonts.googleapis.com">
+    //<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    //<link
+        //href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap"
+        //rel="stylesheet">
+    //<link rel="stylesheet" href="style.css" />
+    //<title>Chara Project</title>
+//</head>
+
+//<body>
+    //<nav>
+        //<div id="header" class="header">
+           //<h1>Chara's World</h1>
+        //</div>
+        //<div class="navbar_items">
+            //<ul>
+                //<li><a href="#home">Home</a></li>
+                //<li><a href="#about">About</a></li>
+                //<li><a href="#experience">Experience</a></li>
+                //<li><a href="#skills">Skills</a></li>
+                //<li><a href="#contacts">Contacts</a></li>
+            //</ul>
+        //</div>
+    //</nav>
+    //<section class="hero">
+    //</section>
+    //<h1>Hi, I'm Joy Wanjiru from Nairobi</h1>
+    //<script src="script.js"></script>
+    //<h1 id="about" class="about">About Me</h1>
+    //<p>I'm a student at Moringa school currently pursuing a Degree in Software Engineering.
+    //  I am so passionate about developing websites and also designing them.
+      //  I'm also looking forward to exploring other skills in the tech industry,
+        //that will enable me to become a Serious Professional in the Tech Industry.
+        //I'm a firm believer that a journey of a thousand miles begins with a single step.
+        //My passion is passioning!
+    //</p>
+    //<h1 id="experience" class="experience">Experience</h1>
+    //<p>
+       // Worked at Technix Enterprises as a Sales Agent/Cashier, where I gained Networking skills and Visual
+        //Merchandising Skills.
+    //</p>
+    //<h1 id="skills" class="skills">Skills</h1>
+    //<p>I have been able to gain skills and knowledge in Programming Languages as well as Programming Tools such as;</p>
+    //<ul>
+        //<li>HTML</li>
+        //<li>CSS</li>
+        //<li>JavaScript</li>
+    //</ul>
+    //<h2>Tools</h2>
+   // <ul>
+       // <li>Visual Studio Code</li>
+        //<li>GitHub</li>
+    //</ul>
+    //<h1 id="contacts" class="contacts">Contacts</h1>
+    //<ul>
+       // <li>Email Address: wanjirusimiyu@gmail.com</li>
+        //<li>Phone: +254 721814748</li>
+    //</ul>
+//</body>
+
+//</html>
+
+document.addEventListener('DOMContentLoaded',function(){
+    //retrieve elements
+    const header = document.getElementById('header');
+    const about = document.getElementById('about me');
+    const experience = document.getElementById('experience');
+    const skills = document.getElementById('skills');
+    const contacts = document.getElementById('contacts');
+
+    // Add event listener to the about
+    about.addEventListener('click', function() {
+        alert('About clicked!');
+    })
+        experience.addEventListener('click', function() {
+        alert('experience clicked!');
+    })
+        skills.addEventListener('click', function() {
+            alert('skills clicked!');
+        })   
+            contacts.addEventListener('click', function() {
+                alert('contacts clicked!');
+            })       
+            
+        }) 
+   
+       
+    
+
+
+
+
